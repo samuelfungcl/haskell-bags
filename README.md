@@ -8,7 +8,7 @@ This assignment was to define a polymorphic Haskell datatype <b>bag</b> to repre
 1. listToBag
 This function takes a list of items and returns a bag containing exactly those items and the number of occurences of the item in the list
 
-2. bagEqals
+2. bagEquals
 This function takes two bags and checks if the bags are exactly the same in terms of the item and the number of occurences of that item
 
 3. bagInsert
