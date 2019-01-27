@@ -1,20 +1,25 @@
-# Haskell Assignment 1 - Bags
+# Functional Programming (Haskell)
+# Bags Assignment
 
-## Marks obtained
-         Mark     Out Of 
+## Description
+This assignment was to define a polymorphic Haskell datatype <b>bag</b> to represent a collection of items and create several functions for interaction between two bags.
 
-Bags Datatype               10    10 
+## Functions
+1. listToBag
+This function takes a list of items and returns a bag containing exactly those items and the number of occurences of the item in the list
 
-listToBag                   8    10            Could be better 
+2. bagEqals
+This function takes two bags and checks if the bags are exactly the same in terms of the item and the number of occurences of that item
 
-bagEqual                    19    25          
+3. bagInsert
+This function takes in an item and inserts it into the bag, and returns the resulting bag
 
-bagInsert                   7   10            Could be much better 
+4. bagSum
+This function takes two bags and adds them up, returning the resulting bag
 
-bagSum                      15   25           could be simpler 
+5. bagIntersection
+This function takes two bags and returns a resulting bag, which contains the intersection of items in both bags
 
-bagIntersection             14   20           It is much easier 
+## Marks Obtained
+I received a first class grade (71%) for this assignment
 
---------------------------------------- 
-
-TOTAL                        73 
